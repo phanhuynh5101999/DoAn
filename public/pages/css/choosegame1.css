@@ -1,0 +1,58 @@
+body{
+    background-image: url('../image/choosegame2.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center ;  */
+    height: 100%;
+    background-attachment: fixed;
+}
+.css_for_img_learn{
+    margin-right: -30px !important;
+    margin-left: 90px !important;
+}
+.wrap{
+    padding: 147px 149px;
+}
+.game{
+    border: 2px solid red;
+    background-color: #FFFFFF;
+     height: 300px;
+     width: 300px;
+    border-radius:50%;
+}
+.game__image{
+    width: 200px;
+}
+.game__name{
+    text-align: center;
+
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 600;
+    color: red;
+}
+.game__image img{
+    width: 100%;
+    margin: 47px;
+}
+
+
+.header{
+    text-align: center;
+}
+.header a > img{
+
+    width: 100px;
+    float: left;
+}
+.header >h2 {
+    color: red;
+}
+
+.game:hover .game__image{
+    transform: scale(1.225,1.225);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}

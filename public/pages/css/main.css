@@ -1,0 +1,118 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* header */
+.header{
+    /* background: green; */
+    padding: 4px 0px;
+    background-image: linear-gradient(to top ,#9AD7F6, white);
+}
+.header__button{
+    display: flex;
+    justify-content: flex-end;
+}
+.header__button_signin{
+    /* margin-right: 60px; */
+    display: flex;
+    align-items: center;
+}
+
+.header__button_signin p{
+    margin-top: 14px;
+    margin-right: 10px;
+}
+
+.header__button_signin a{
+    background-color: #1150a0;
+    color: white;
+    font-weight: bold;
+    white-space: nowrap;
+    border-radius: 30px;
+    font-size: 12px;
+    padding: 7px;
+   
+}
+.header__button_signin a:hover{
+    color: green;
+}
+.header__logo img{
+    width: 100%;
+}
+
+
+.header__button__menu{
+ margin: auto;
+}
+
+/* end header */
+
+
+
+.content{
+    background-image: linear-gradient(to bottom ,#9AD7F6, white);
+}
+.content__header{
+    /* background: #9AD7F6; */
+    background-image: linear-gradient(angle ,#9AD7F6, white);
+    height: 300px;
+    padding-top: 30px;
+}
+.content__header__item{
+    height: 270px;
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 8px;
+    border: 10px outset #8FBC8F;
+    word-wrap: break-word;
+}
+
+.content__header__item:hover {
+    border: 10px outset green;
+}
+a:hover {
+    text-decoration: none;
+}
+.content__header__item__img{
+    margin: 0 auto;
+    width: 200px;
+}
+.content__header__item__img img{
+    width: 100%;
+    
+}
+
+.content__mid{
+    height: 100%;
+    /* background-image: url(../image/ground_still.png);
+    background-repeat: no-repeat;
+  background-size: cover; */
+}
+.content__mid img{
+    width: 100%;
+    /* position: relative; */
+    z-index: 2;
+}
+.content__bottom{
+    background-color: #669ACC;
+    position: relative;
+    overflow: hidden;
+}
+/* .content__bottom__balloons{
+    width: 100%;
+    height: auto;
+} */
+
+
+
+
+
+@media only screen and (max-width: 576px){
+
+}
